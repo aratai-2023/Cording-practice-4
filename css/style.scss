@@ -1,0 +1,110 @@
+body {
+  font-family: Verdana, Arial, Helvetica, meirio, メイリオ, "Hiragino Maru Gothic Pro", "ヒラギノ丸ゴ Pro W4", Osaka, "ＭＳ Ｐゴシック", sans-serif;
+  background-color: rgb(246, 246, 246);
+}
+
+.container {
+  width: 920px;
+  margin: auto;
+}
+
+header {
+  border-top: solid 8px #6CC6C4;
+
+  .header-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header-title {
+      margin-top: 40px;
+    }
+
+    .header-info {
+      max-width: 256px;
+      text-align: right;
+
+      p:nth-child(1) {
+        font-size: 10.5px;
+        margin: 15px 0;
+      }
+
+      p:nth-child(2) {
+        font-size: 27px;
+        font-family: Arial;
+        color: rgb(96, 96, 96);
+        letter-spacing: 2px;
+        // text-align: justify;
+
+        img {
+          padding-bottom: 4px;
+          margin-right: 15px;
+        }
+      }
+
+      p:nth-child(3) {
+        font-size: 10.5px;
+        border: 1px solid rgb(201, 201, 201);
+        text-align: center;
+        padding: 7.5px 0;
+        margin-top: 5px;
+
+        span {
+          color: red;
+        }
+      }
+    }
+  }
+
+  .header-list {
+    height: 70px;
+    margin-top: 17.5px;
+    display: flex;
+    justify-content: space-between;
+
+    li {
+      width: 20%;
+      height: 100%;
+      text-align: center;
+      border: 1px solid #6CC6C4;
+      border-right: #71C9C7 solid 1px;
+      border-left: #99E1DF solid 1px;
+      background-image: linear-gradient(rgb(156, 227, 225) 0%, rgb(108, 198, 196) 100%);
+      padding: 17.5px 0;
+      box-sizing: border-box;
+
+      a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        text-shadow: 1px 1px 2px #6CC6C4;
+
+        span {
+          font-size: 10px;
+          font-weight: bold;
+        }
+      }
+    }
+
+    li:hover {
+      background-image: linear-gradient(rgb(108, 198, 196) 0%, rgb(156, 227, 225) 100%);
+
+      a {
+        color: #C1FFFD;
+      }
+    }
+
+    li:nth-child(1) {
+      border-radius: 6px 0 0 6px;
+      border-left: none;
+    }
+
+    li:nth-child(5) {
+      border-radius: 0 6px 6px 0;
+      border-right: none;
+    }
+  }
+}

@@ -1,0 +1,124 @@
+@charset "UTF-8";
+body {
+  font-family: Verdana, Arial, Helvetica, meirio, メイリオ, "Hiragino Maru Gothic Pro", "ヒラギノ丸ゴ Pro W4", Osaka, "ＭＳ Ｐゴシック", sans-serif;
+  background-color: #f6f6f6;
+}
+
+.container {
+  width: 920px;
+  margin: auto;
+}
+
+header {
+  border-top: solid 8px #6CC6C4;
+}
+
+header .header-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header-icon .header-title {
+  margin-top: 40px;
+}
+
+header .header-icon .header-info {
+  max-width: 256px;
+  text-align: right;
+}
+
+header .header-icon .header-info p:nth-child(1) {
+  font-size: 10.5px;
+  margin: 15px 0;
+}
+
+header .header-icon .header-info p:nth-child(2) {
+  font-size: 27px;
+  font-family: Arial;
+  color: #606060;
+  letter-spacing: 2px;
+}
+
+header .header-icon .header-info p:nth-child(2) img {
+  padding-bottom: 4px;
+  margin-right: 15px;
+}
+
+header .header-icon .header-info p:nth-child(3) {
+  font-size: 10.5px;
+  border: 1px solid #c9c9c9;
+  text-align: center;
+  padding: 7.5px 0;
+  margin-top: 5px;
+}
+
+header .header-icon .header-info p:nth-child(3) span {
+  color: red;
+}
+
+header .header-list {
+  height: 70px;
+  margin-top: 17.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header-list li {
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  border: 1px solid #6CC6C4;
+  border-right: #71C9C7 solid 1px;
+  border-left: #99E1DF solid 1px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9ce3e1), to(#6cc6c4));
+  background-image: linear-gradient(#9ce3e1 0%, #6cc6c4 100%);
+  padding: 17.5px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header .header-list li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #6CC6C4;
+}
+
+header .header-list li a span {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+header .header-list li:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#6cc6c4), to(#9ce3e1));
+  background-image: linear-gradient(#6cc6c4 0%, #9ce3e1 100%);
+}
+
+header .header-list li:hover a {
+  color: #C1FFFD;
+}
+
+header .header-list li:nth-child(1) {
+  border-radius: 6px 0 0 6px;
+  border-left: none;
+}
+
+header .header-list li:nth-child(5) {
+  border-radius: 0 6px 6px 0;
+  border-right: none;
+}
+/*# sourceMappingURL=style.css.map */
