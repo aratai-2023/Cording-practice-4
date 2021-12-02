@@ -218,4 +218,50 @@ header .header-list li:nth-child(5) {
   border-bottom: 1px dotted #CCCCCC;
   line-height: 150%;
 }
+
+footer {
+  margin-top: 30px;
+}
+
+footer nav {
+  background-color: #6CC6C4;
+  color: #FFF;
+  border-radius: 6px;
+}
+
+footer nav ul {
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 15px;
+}
+
+footer nav ul li {
+  font-size: 13px;
+  margin-right: 30px;
+}
+
+footer nav ul li::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f111';
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+footer .footer-address {
+  font-size: 13px;
+  text-align: right;
+  margin: 15px 0;
+}
+
+footer p {
+  font-size: 12px;
+  text-align: center;
+  border-top: 2px solid #6CC6C4;
+  padding-top: 15px;
+}
 /*# sourceMappingURL=style.css.map */

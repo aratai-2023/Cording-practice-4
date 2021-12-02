@@ -1,14 +1,18 @@
+@charset "utf-8";
+
 body {
   font-family: Verdana, Arial, Helvetica, meirio, メイリオ, "Hiragino Maru Gothic Pro", "ヒラギノ丸ゴ Pro W4", Osaka, "ＭＳ Ｐゴシック", sans-serif;
   background-color: rgb(246, 246, 246);
   color: #515151;
 }
 
+// widthを統一するためのコンテナ作成
 .container {
   width: 920px;
   margin: auto;
 }
 
+// header
 header {
   border-top: solid 8px #6CC6C4;
 
@@ -108,6 +112,7 @@ header {
   }
 }
 
+// main-visual
 .main-visual {
   display: flex;
   justify-content: space-between;
@@ -197,5 +202,48 @@ header {
         }
       }
     }
+  }
+}
+
+// footer
+footer {
+  margin-top: 30px;
+
+  nav {
+    background-color: #6CC6C4;
+    color: #FFF;
+    border-radius: 6px;
+
+    ul {
+      height: 30px;
+      display: flex;
+      align-items: center;
+      padding-left: 15px;
+
+      li {
+        font-size: 13px;
+        margin-right: 30px;
+      }
+
+      li::before {
+        font-family: 'Font Awesome 5 Free';
+        content: '\f111';
+        margin-right: 10px;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .footer-address {
+    font-size: 13px;
+    text-align: right;
+    margin: 15px 0;
+  }
+
+  p {
+    font-size: 12px;
+    text-align: center;
+    border-top: 2px solid #6CC6C4;
+    padding-top: 15px;
   }
 }
