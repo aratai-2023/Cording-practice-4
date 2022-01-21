@@ -381,3 +381,22 @@ footer {
   margin-bottom: 40px;
 }
 // service.html ここまで
+
+// staff.html ここから
+.doctor-profile {
+  display: flex;
+
+  .doctor-image {
+    margin: 0 17.5px 12.5px 0;
+
+    p {
+      background-color: #6CC6C4;
+      color: #FFF;
+      font-size: 13px;
+      text-align: center;
+      margin: 15px 0;
+      padding: 5px 0;
+    }
+  }
+}
+// staff.html ここまで
