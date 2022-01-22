@@ -400,3 +400,25 @@ footer {
   }
 }
 // staff.html ここまで
+
+// access.html ここから
+.map {
+  border-bottom: 3px solid #6CC6C4;
+  padding-bottom: 10px;
+
+  small {
+    font-size: 10.5px;
+    color: blue;
+    text-decoration: underline blue;
+  }
+}
+
+.access {
+  display: flex;
+  margin-top: 7.5px;
+
+  .clinic-image {
+    margin-right: 17.5px;
+  }
+}
+// access.html ここまで
