@@ -181,6 +181,11 @@ body {
 // header ここから
 header {
   border-top: solid 8px #6CC6C4;
+  min-width: 920px;
+
+  @include sp {
+    min-width: 575px;
+  }
 
   .header-icon {
     display: flex;

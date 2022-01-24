@@ -192,6 +192,13 @@ body {
 
 header {
   border-top: solid 8px #6CC6C4;
+  min-width: 920px;
+}
+
+@media screen and (max-width: 599px) {
+  header {
+    min-width: 575px;
+  }
 }
 
 header .header-icon {
