@@ -12,7 +12,8 @@ body {
 
 @media screen and (max-width: 599px) {
   .container {
-    width: 575px;
+    width: 350px;
+    margin: auto;
   }
 }
 
@@ -197,7 +198,7 @@ header {
 
 @media screen and (max-width: 599px) {
   header {
-    min-width: 575px;
+    min-width: 350px;
   }
 }
 
@@ -449,6 +450,12 @@ footer p {
   text-align: center;
   border-top: 2px solid #6CC6C4;
   padding: 15px 0;
+}
+
+@media screen and (max-width: 599px) {
+  footer p {
+    font-size: 1vw;
+  }
 }
 
 .topics {
